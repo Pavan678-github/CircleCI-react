@@ -2,7 +2,7 @@ version: 2.1
 
 aliases:
   - &docker
-    - image: cimg/openjdk
+    - image: circleci/openjdk
 
   - &environment
     TZ: /usr/share/zoneinfo/America/Los_Angeles
